@@ -40,7 +40,6 @@ options:
 )
 
 func main() {
-	fmt.Println("Jai Guru")
 
 	//TODO retrieve it from ~/.civo.json
 	apiKey := os.Getenv("CIVO_API_KEY")
